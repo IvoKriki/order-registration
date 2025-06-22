@@ -1,0 +1,21 @@
+### POST request to example server
+POST http://localhost:8081/orders
+
+Content-Type: application/json
+
+{
+  "description": "New order",
+  "items": [
+    {
+      "productName": "Laptop Stand",
+      "quantity": 1
+    },
+    {
+      "productName": "USB Hub",
+      "quantity": 3
+    }
+  ]
+}
+
+
+###
